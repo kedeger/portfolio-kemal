@@ -11,14 +11,13 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/mystyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body>
-
-<!-- I dont think I want a nav bar -->
-<!--   <nav class="green lighten-4" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+<header>
+   <!--  <nav role="navigation">
+    <div class="nav-wrapper row">
+      <a id="logo-container" href="#" class="red-text brand-logo">Logo</a>
+      <ul class="test right hide-on-med-and-down">
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About Me</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -27,10 +26,29 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav> -->
+  <nav role="navigation">
+    <div class="nav-wrapper row">
+      <ul class="navSpacing left hide-on-med-and-down">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+      <ul class="navSpacing right hide-on-med-and-down">
+        <li><a href="https://docs.google.com/document/d/1zRyQweGnvoQduowEproG_vYfCoKhhkwy1EdK3NElYVk/edit?usp=sharing">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
 
-  <div id="index-banner" class="parallax-container">
+      <ul id="nav-mobile" class="side-nav" style="transform: translateX(-100%);">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+</header>
+
+<body>
+  <div id="index-banner" class="noClickEvent parallax-container">
     <div class="section no-pad-bot">
-      <div class="container">
+      <div id="home" class="container">
         <br><br>
         <h1 class="header center red-text darken-2">Kemal Deger</h1>
         <br><br>
@@ -84,7 +102,7 @@
   </div>
   </div>
   
-  <div class="parallax-container valign-wrapper">
+  <div class="noClickEvent parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
@@ -96,7 +114,7 @@
     <div class="parallax"><img src="images/soundboard.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
-  <div class="grey darken-3">
+  <div id="projects" class="grey darken-3">
     <div class="container">
       <div class="section">
         <div class="row">
@@ -171,7 +189,7 @@
     </div>
   </div>
 
-  <div class="parallax-container valign-wrapper">
+  <div class="noClickEvent parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
@@ -182,7 +200,7 @@
     <div class="parallax"><img src="images/seattlewater.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer red darken-2">
+  <footer id="contact" class="page-footer red darken-2">
     <div class="container">
       <div class="row">
       <div class="col l4 s12">
@@ -216,8 +234,9 @@
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      <div style="font-size: 10px; text-align: right;">
+      <!-- Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a> -->
+      I do not own the background images used on this page.
       </div>
     </div>
   </footer>

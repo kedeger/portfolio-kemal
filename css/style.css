@@ -6,9 +6,24 @@
  * Made By MaterializeCSS.com
  */
 
+.navSpacing {
+  margin-top: -1.25rem;
+  margin-left: -0.6rem;
+}
+
+.noClickEvent {
+  pointer-events: none;
+}
+
+nav {
+  position: fixed;
+  background-color: transparent;
+  box-shadow: none;
+}
+
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: white;
 }
 
 p {
