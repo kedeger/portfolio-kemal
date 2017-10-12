@@ -5,7 +5,39 @@
  *
  * Made By MaterializeCSS.com
  */
+/*.spin {
+    -webkit-animation:spin 8s linear infinite;
+    -moz-animation:spin 8s linear infinite;
+    animation:spin 8s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
+.spinCounter {
+    -webkit-animation:spin 8s linear infinite;
+    -moz-animation:spin 8s linear infinite;
+    animation:spin 8s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+*/
+.whoRow {
+  margin-bottom: 0px;
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+}
+
+.webdevIcon {
+  width: 12rem !important;
+  margin-top: 11rem;
+}
+
+.marketingIcon {
+  width: 14rem !important;
+  margin-top: 10rem;
+}
 .navSpacing {
   margin-top: -1.25rem;
   margin-left: -0.6rem;
@@ -13,6 +45,16 @@
 
 .noClickEvent {
   pointer-events: none;
+}
+
+.h1Spacing {
+  font-size: 3rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0px;
+}
+
+.mainImg {
+  top: -25rem;
 }
 
 nav {
