@@ -23,6 +23,29 @@
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
 */
+.alignCtr {
+  text-align: center;
+}
+
+.marginLeft {
+  margin-left: -4.55rem;
+}
+
+.ftrDisclaimer {
+  font-size: 10px;
+  text-align: center;
+  color: white;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+.ftrIcons {
+  font-size: 8rem;
+  text-align: center;
+}
+
 .whoRow {
   margin-bottom: 0px;
   padding-top: 5rem;
